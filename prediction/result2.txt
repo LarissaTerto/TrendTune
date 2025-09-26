@@ -1,0 +1,131 @@
+### Criteria for "Good Error":
+- MSE ≤ 4
+- MAE ≤ 2
+
+### Criteria for "Bad Error":
+- MSE > 4
+- MAE > 2
+
+### **Genres with Good Error (Low MSE and MAE)**
+1. **Arrocha**: MSE = 4.0, MAE = 2.0
+2. **Sertanejo**: MSE = 1.0, MAE = 1.0
+3. **Sertanejo Universitário**: MSE = 1.0, MAE = 1.0
+4. **Agronejo**: MSE = 1.0, MAE = 1.0
+5. **Pop Nacional**: MSE = 0.0, MAE = 0.0
+6. **Funk**: MSE = 1.0, MAE = 1.0
+7. **Funk Carioca**: MSE = 0.0, MAE = 0.0
+8. **Sertanejo Tradicional**: MSE = 0.0, MAE = 0.0
+9. **Oktoberfest**: MSE = 0.0, MAE = 0.0
+10. **Pop LGBTQ+ Brasileira**: MSE = 0.0, MAE = 0.0
+11. **Axe**: MSE = 0.0, MAE = 0.0
+12. **Arrochadeira**: MSE = 1.0, MAE = 1.0
+13. **Piseiro**: MSE = 1.0, MAE = 1.0
+
+### **Genres with Bad Error (High MSE and MAE)**
+1. **Forró**: MSE = 36.0, MAE = 6.0
+2. **Pagode**: MSE = 4.0, MAE = 2.0 (borderline)
+3. **Pagode Novo**: MSE = 16.0, MAE = 4.0
+4. **MPB**: MSE = 4.0, MAE = 2.0 (borderline)
+5. **Brazilian Soul**: MSE = 4.0, MAE = 2.0 (borderline)
+6. **Brazilian Boogie**: MSE = 4.0, MAE = 2.0 (borderline)
+7. **Rave Funk**: MSE = 4.0, MAE = 2.0
+8. **Musica Tocantinense**: MSE = 16.0, MAE = 4.0
+
+---
+
+### **Summary:**
+- **Genres with good error (low MSE and MAE):** 13 genres
+- **Genres with bad error (high MSE and MAE):** 8 genres (with some borderline cases)
+
+It appears that most genres perform well with low error, but there are a few genres that have significant errors, especially **Forró**, **Pagode Novo**, and **Musica Tocantinense**.
+
+Let me know if you'd like further analysis or improvements to the model!
+
+Actual value for December for arrocha: 9.0
+Predicted value for December for arrocha: 7.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for sertanejo: 11.0
+Predicted value for December for sertanejo: 10.0
+Mean Squared Error (MSE): 1.0
+Mean Absolute Error (MAE): 1.0
+Actual value for December for sertanejo universitario: 11.0
+Predicted value for December for sertanejo universitario: 10.0
+Mean Squared Error (MSE): 1.0
+Mean Absolute Error (MAE): 1.0
+Actual value for December for agronejo: 10.0
+Predicted value for December for agronejo: 9.0
+Mean Squared Error (MSE): 1.0
+Mean Absolute Error (MAE): 1.0
+Actual value for December for sertanejo pop: 11.0
+Predicted value for December for sertanejo pop: 9.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for pop nacional: 1.0
+Predicted value for December for pop nacional: 1.0
+Mean Squared Error (MSE): 0.0
+Mean Absolute Error (MAE): 0.0
+Actual value for December for funk: 4.0
+Predicted value for December for funk: 3.0
+Mean Squared Error (MSE): 1.0
+Mean Absolute Error (MAE): 1.0
+Actual value for December for funk carioca: 3.0
+Predicted value for December for funk carioca: 3.0
+Mean Squared Error (MSE): 0.0
+Mean Absolute Error (MAE): 0.0
+Actual value for December for forro: 7.0
+Predicted value for December for forro: 1.0
+Mean Squared Error (MSE): 36.0
+Mean Absolute Error (MAE): 6.0
+Actual value for December for pagode: 7.0
+Predicted value for December for pagode: 5.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for pagode novo: 7.0
+Predicted value for December for pagode novo: 3.0
+Mean Squared Error (MSE): 16.0
+Mean Absolute Error (MAE): 4.0
+Actual value for December for sertanejo tradicional: 7.0
+Predicted value for December for sertanejo tradicional: 7.0
+Mean Squared Error (MSE): 0.0
+Mean Absolute Error (MAE): 0.0
+Actual value for December for oktoberfest: 1.0
+Predicted value for December for oktoberfest: 1.0
+Mean Squared Error (MSE): 0.0
+Mean Absolute Error (MAE): 0.0
+Actual value for December for pop lgbtq+ brasileira : 1.0
+Predicted value for December for pop lgbtq+ brasileira : 1.0
+Mean Squared Error (MSE): 0.0
+Mean Absolute Error (MAE): 0.0
+Actual value for December for mpb: 1.0
+Predicted value for December for mpb: 3.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for brazilian soul : 1.0
+Predicted value for December for brazilian soul : 3.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for brazilian boogie: 1.0
+Predicted value for December for brazilian boogie: 3.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for axe: 1.0
+Predicted value for December for axe: 1.0
+Mean Squared Error (MSE): 0.0
+Mean Absolute Error (MAE): 0.0
+Actual value for December for rave funk: 3.0
+Predicted value for December for rave funk: 1.0
+Mean Squared Error (MSE): 4.0
+Mean Absolute Error (MAE): 2.0
+Actual value for December for arrochadeira: 3.0
+Predicted value for December for arrochadeira: 2.0
+Mean Squared Error (MSE): 1.0
+Mean Absolute Error (MAE): 1.0
+Actual value for December for musica tocantinense: 5.0
+Predicted value for December for musica tocantinense: 1.0
+Mean Squared Error (MSE): 16.0
+Mean Absolute Error (MAE): 4.0
+Actual value for December for piseiro: 3.0
+Predicted value for December for piseiro: 2.0
+Mean Squared Error (MSE): 1.0
+Mean Absolute Error (MAE): 1.0
