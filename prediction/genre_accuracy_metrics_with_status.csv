@@ -1,0 +1,49 @@
+# MSE threshold (λ): 5.1497
+gênero,MSE,MAE,correlation,MSE threshold status
+
+arrocha,12.6637,3.1069,-0.6161,above
+
+sertanejo,0.2818,0.4063,0.3842,below
+
+sertanejo universitario,0.6119,0.505,0.3264,below
+
+agronejo,0.8611,0.7164,0.0533,below
+
+sertanejo pop,1.686,1.1101,-0.4752,below
+
+pop nacional,0.5246,0.5586,0.4604,below
+
+funk,0.5308,0.3163,,below
+
+funk carioca,3.5848,1.6326,0.2341,below
+
+forro,24.6966,4.574,,above
+
+pagode,13.0456,3.0496,-0.0834,above
+
+pagode novo,17.214,3.6325,,above
+
+sertanejo tradicional,0.1478,0.3754,,below
+
+oktoberfest,1.2543,1.12,,below
+
+pop lgbtq+ brasileira ,0.5666,0.5568,-0.0893,below
+
+mpb,7.1523,2.3578,-0.4137,above
+
+brazilian soul ,4.8222,1.7749,-0.0889,below
+
+brazilian boogie,4.8222,1.7749,-0.0889,below
+
+axe,0.3846,0.5286,,below
+
+rave funk,2.3706,1.2529,-0.3407,below
+
+arrochadeira,1.2318,0.8174,0.287,below
+
+musica tocantinense,8.0631,2.5268,-0.1687,above
+
+piseiro,0.9947,0.8918,0.2794,below
+
+brazilian rock,3.6965,1.0733,,below
+
